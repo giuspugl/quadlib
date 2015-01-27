@@ -6,3 +6,7 @@ add_library(quadrature-lib SHARED ${_files})
 
 set(CMAKE_CXX_FLAGS_DEBUG:STRING=-g -DDEBUG)
 
+set(CMAKE_CXX_FLAGS_RELEASE:STRING=-O3)
+
+set(CMAKE_INCLUDE_CURRENT_DIR ON)
+
